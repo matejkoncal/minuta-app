@@ -1,0 +1,32 @@
+{
+  "applicationId": "js.neutralino.zero",
+  "version": "1.0.0",
+  "defaultMode": "window",
+  "documentRoot": "/sme-minuta/build/",
+  "url": "/",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "nativeAllowList": ["app.*", "os.*", "window.*"],
+  "modes": {
+    "window": {
+      "title": "sme.sk",
+      "width": 400,
+      "height": 500,
+      "resizable": false,
+      "icon": "/sme-minuta/public/logo192.png",
+      "alwaysOnTop": true
+    }
+  },
+  "cli": {
+    "binaryName": "minuta-app",
+    "resourcesPath": "/sme-minuta/build/",
+    "extensionsPath": "/extensions/",
+    "clientLibrary": "/sme-minuta/public/neutralino.js",
+    "binaryVersion": "4.6.0",
+    "clientVersion": "3.5.0",
+    "frontendLibrary": {
+      "patchFile": "/sme-minuta/public/index.html",
+      "devUrl": "http://localhost:3000"
+    }
+  }
+}
