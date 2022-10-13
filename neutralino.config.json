@@ -13,8 +13,7 @@
       "width": 400,
       "height": 500,
       "resizable": false,
-      "icon": "/sme-minuta/public/logo192.png",
-      "alwaysOnTop": true
+      "icon": "/sme-minuta/public/logo192.png"
     }
   },
   "cli": {
